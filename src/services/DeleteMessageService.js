@@ -14,7 +14,7 @@ class DeleteMessageService{
       return deleteMessage
 
     }catch(err){
-      console.log('essa mensagem já foi deletada')
+      console.log(`essa mensagem já foi deletada ${err}`)
     }
 
   }

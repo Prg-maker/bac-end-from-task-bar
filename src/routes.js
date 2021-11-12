@@ -10,6 +10,6 @@ const router = Router()
 
 router.post('/createMessage', new CreateMessageController().handle)
 router.get('/listMessage', new ListMessageController().handle)
-router.delete('/deleteMessage', new DeleteMessageController().handle)
+router.post('/deleteMessage', new DeleteMessageController().handle)
 
 export {router}
